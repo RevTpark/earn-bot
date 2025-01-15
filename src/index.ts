@@ -99,7 +99,7 @@ client.once('ready', async () => {
                     const bountyData = {
                         ...x,
                         reward,
-                        link: `https://earn.superteam.fun/listings/${x.type}/${x.slug}/?utm_source=superteam&utm_medium=discord&utm_campaign=bounties`,
+                        link: `https://earn.superteam.fun/listing/${x.slug}/?utm_source=superteam&utm_medium=discord&utm_campaign=bounties`,
                     };
 
                     if (x.skills.some((sk) => ['Blockchain', 'Frontend', 'Backend', 'Mobile'].includes(sk.skills))) {
